@@ -1,0 +1,75 @@
+body{
+    background-image: url(../assets/image/fondo.jpeg);
+    width: 98%;
+
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    /* border: 2px dashed purple; */
+    padding: 4%;
+    background: transparent;
+}
+
+#buscar-gif{
+     background-color: purple;
+     color: white;
+    
+}
+#buscar-gif:hover{
+    opacity: .8;
+}
+
+.container img{
+    max-width: 250px;
+    padding: 4px;
+}
+
+.elementos{
+    padding: 2%;
+}
+
+#elementos .elemento{
+    width: 90%;
+    margin: 10px;
+    border: 2px solid c0c5ce;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    margin: 2%;
+    height: 50vh;
+    
+}
+
+#elementos .elemento img{
+    width: 100%;
+}
+  
+    
+
+
+#elementos .elemento a{
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    padding: 20%;
+    position: relative;
+    top: 30%;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+@media (min-width: 992px) {
+
+    #elementos .elemento img{  
+        width: 100%;
+        position: absolute;
+        right: -340px;
+        height: 100%;
+ 
+ }
+}
