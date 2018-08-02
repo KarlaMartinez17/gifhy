@@ -1,6 +1,9 @@
-body{
+.bg{
     background-image: url(../assets/image/fondo.jpeg);
-    width: 98%;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
 
 }
 
@@ -9,7 +12,15 @@ body{
     margin: 0 auto;
     text-align: center;
     background-color: black;
-    /* border: 2px dashed purple; */
+     border: 2px dashed purple; 
+    padding: 4%;
+    background: transparent;
+}
+
+.container-2{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
     padding: 4%;
     background: transparent;
 }
@@ -40,24 +51,19 @@ body{
     padding: 10px;
     text-align: center;
     position: relative;
-    margin: 2%;
-    height: 50vh;
-    
+    margin: 2%;  
 }
 
 #elementos .elemento img{
     width: 100%;
-}
-  
-    
+} 
 
 
 #elementos .elemento a{
     font-family: 'Raleway', sans-serif;
     display: inline-block;
-    padding: 20%;
     position: relative;
-    top: 30%;
+    top: 25px;
     color: white;
     text-decoration: none;
     font-size: 16px;
@@ -65,11 +71,22 @@ body{
 
 @media (min-width: 992px) {
 
-    #elementos .elemento img{  
+     #elementos .elemento img{  
         width: 100%;
-        position: absolute;
-        right: -340px;
         height: 100%;
- 
- }
-}
+  
+    }
+
+    #elementos .elemento{
+        height: 50vh;
+    }
+
+    #elementos .elemento a{
+        font-family: 'Raleway', sans-serif;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+} 
+
