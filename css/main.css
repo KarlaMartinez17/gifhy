@@ -4,17 +4,16 @@
     width: 100vw;
     height: 100vh;
     position: fixed;
-
+   
 }
 
 .container{
     width: 70%;
     margin: 0 auto;
     text-align: center;
-    background-color: black;
-     border: 2px dashed purple; 
-    padding: 4%;
-    background: transparent;
+    padding: 5%;
+    position: relative;
+   
 }
 
 .container-2{
