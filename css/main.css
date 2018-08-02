@@ -79,6 +79,7 @@
 
     #elementos .elemento{
         height: 50vh;
+        padding-bottom: 20px;
     }
 
     #elementos .elemento a{
@@ -87,6 +88,7 @@
         color: white;
         text-decoration: none;
         font-size: 16px;
+        top: 0px;
     }
 } 
 

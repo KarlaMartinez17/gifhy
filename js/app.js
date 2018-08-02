@@ -21,7 +21,8 @@ $(document).ready(function(){
          datatype:'json',
          data:{
              q:gif,
-             api_key:'uLdvc4QYukh7vbrc21pdiyPSjitmrz74'
+             api_key:'uLdvc4QYukh7vbrc21pdiyPSjitmrz74',
+             limit: 5
          }
      })
      .done(function(response){
