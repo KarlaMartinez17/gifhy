@@ -4,4 +4,4 @@
 Proyecto que usa la API de GIFHY para desplegar los GIF de acuerdo a la busqueda que realice el usuario.
 
 ## Desarrollado para 
-[Laboratoria] (http://laboratoria.la)
+[Laboratoria](http://laboratoria.la)
